@@ -79,10 +79,7 @@ public class Shop : MonoBehaviour
             owningRibbon = false;
             owningWig = false;
 
-            catEarsObject.gameObject.SetActive(false);
-            necklaceObject.gameObject.SetActive(false);
-            wigObject.gameObject.SetActive(false);
-            ribbonObject.gameObject.SetActive(false);
+           
         }
 
         

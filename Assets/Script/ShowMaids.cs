@@ -67,13 +67,9 @@ public class ShowMaids : MonoBehaviour
 
             score += Random.Range(1, 250); 
 
-
         }
 
-        if (currentMaid.maidLife >= 1)
-        {
-            nextMaid = false;
-        }
+       
         
         healthMaid.text = "Mental health : " + currentMaid.maidLife.ToString();
         myUIScore.text = "Score : " + score; 
